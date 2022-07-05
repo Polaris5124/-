@@ -5,11 +5,11 @@ int main()
 	float a, b;
 	float result;
 	char k;
-	printf("Ã¹¹øÂ° °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä:");
+	printf("ì²«ë²ˆì§¸ ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”:");
 	scanf_s("%f", &a);
-	printf("¿¬»ê ±âÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä:");
+	printf("ì—°ì‚° ê¸°í˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”:");
 	scanf_s("%*c%c", &k, 1);
-	printf("µÎ¹øÂ° °ªÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä:");
+	printf("ë‘ë²ˆì§¸ ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”:");
 	scanf_s("%f", &b);
 	if (k == '+')
 	{
@@ -29,8 +29,39 @@ int main()
 	if (k == '/') {
 		if (b == 0)
 		{
-			//0À¸·Î ³ª´­¶§ ¿À·ù ¹æÁö
-			printf("0À¸·Î´Â ³ª´­ ¼ö ¾ø½À´Ï´Ù.");
+			//0ìœ¼ë¡œ ë‚˜ëˆŒë•Œ ì˜¤ë¥˜ ë°©ì§€#include<stdio.h>
+int main()
+
+{
+	float a, b;
+	float result;
+	char k;
+	printf("ì²«ë²ˆì§¸ ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”:");
+	scanf_s("%f", &a);
+	printf("ì—°ì‚° ê¸°í˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”:");
+	scanf_s("%*c%c", &k, 1);
+	printf("ë‘ë²ˆì§¸ ê°’ì„ ì…ë ¥í•´ì£¼ì„¸ìš”:");
+	scanf_s("%f", &b);
+	if (k == '+')
+	{
+		result = a + b;
+		printf("%f + %f = %f", a, b, result);
+	}
+	else if (k == '-')
+	{
+		result = a - b;
+		printf("%f - %f = %f", a, b, result);
+	}
+	else if (k == '*')
+	{
+		result = a * b;
+		printf("%f * %f = %f", a, b, result);
+	}
+	else if (k == '/') {
+		if (b == 0)
+		{
+			//0ìœ¼ë¡œ ë‚˜ëˆŒë•Œ ì˜¤ë¥˜ ë°©ì§€
+			printf("0ìœ¼ë¡œëŠ” ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 			return 0;
 		}
 		else
@@ -38,6 +69,7 @@ int main()
 		printf("%f / %f = %f", a, b, result);
 	}
 	else
-		printf("Àß¸øµÈ ¿¬»êÀÔ´Ï´Ù.");
+		printf("ì˜ëª»ëœ ì—°ì‚°ì…ë‹ˆë‹¤.");
+	getch();
 	return 0;
 }
