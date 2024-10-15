@@ -1,0 +1,58 @@
+{
+    "epic-rolls-5e": {
+        "check": "チェック",
+        "contest": "コンテスト",
+        "dc": "DC",
+        "failure": "失敗！",
+        "request-roll": {
+            "cancel": "キャンセル",
+            "checks": {
+                "actornone": "争われたロール",
+                "chknone": "能力チェック",
+                "dc": "スキル/チェック/セーブDC",
+                "savnone": "セーヴィング・スロー",
+                "sklnone": "スキルチェック",
+                "token": "選択したトークン"
+            },
+            "error": "Epic Rolls 5e: ロールの種類を 1 つ選択する必要があります。",
+            "error-token": "Epic Rolls 5e: ロールするトークンを選択する必要があります。",
+            "error-users": "Epic Rolls 5e: ロールするユーザーを少なくとも 1 人選択する必要があります。",
+            "macro": "マクロとして保存",
+            "options": {
+                "allowReroll": "再ロールを許可",
+                "blindRoll": "ブラインドロール",
+                "hideNpcName": "名前を隠す",
+                "showDc": "DC を表示",
+                "showRollResult": "ロール結果を表示",
+                "showRollResultContested": "コンテストを表示",
+                "useAverage": "平均を使用"
+            },
+            "roll": "エピックロールを開始",
+            "save-macro": {
+                "content": "以下にマクロの名前を入力します。",
+                "title": "エピック ロール マクロを保存"
+            },
+            "title": "エピックロール"
+        },
+        "save": "セーヴィング・スロー",
+        "settings": {
+            "failureSound": {
+                "hint": "ロールに失敗したときに再生されるサウンド。",
+                "name": "失敗音"
+            },
+            "introSound": {
+                "hint": "ロール開始時に鳴る音。",
+                "name": "イントロサウンド"
+            },
+            "purgeMessages": {
+                "hint": "Epic Rolls ロールからチャット メッセージを自動的に削除します。",
+                "name": "チャット メッセージのクリーンアップ"
+            },
+            "successSound": {
+                "hint": "ロールが成功したときに再生されるサウンド。",
+                "name": "成功音"
+            }
+        },
+        "success": "成功！"
+    }
+}

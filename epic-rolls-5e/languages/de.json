@@ -1,0 +1,58 @@
+{
+    "epic-rolls-5e": {
+        "check": "Probe",
+        "contest": "Wettstreit",
+        "dc": "SG",
+        "failure": "Fehlschlag!",
+        "request-roll": {
+            "cancel": "Abbrechen",
+            "checks": {
+                "actornone": "Umkämpfte Rolle",
+                "chknone": "Attributsprobe",
+                "dc": "Fähigkeit/Probe/Rettungs SG",
+                "savnone": "Rettungsprobe",
+                "sklnone": "Talentprobe",
+                "token": "Ausgewählter Token"
+            },
+            "error": "Epic Rolls 5e: Sie müssen einen Probentyp auswählen.",
+            "error-token": "Epic Rolls 5e: Sie müssen einen Token auswählen, für den Sie würfeln möchten.",
+            "error-users": "Epic Rolls 5e: Sie müssen mindestens einen Benutzer auswählen, für den Sie würfeln möchten.",
+            "macro": "Als Makro speichern",
+            "options": {
+                "allowReroll": "Erneut Würfeln zulassen",
+                "blindRoll": "Verdeckter Wurf",
+                "hideNpcName": "NPC Namen ausblenden",
+                "showDc": "SG anzeigen",
+                "showRollResult": "Wurfergebnis anzeigen",
+                "showRollResultContested": "Wettstreitergebnis anzeigen",
+                "useAverage": "Durchschnitt verwenden"
+            },
+            "roll": "Epic Roll starten",
+            "save-macro": {
+                "content": "Geben Sie den Namen des Makros unten ein:",
+                "title": "Epic-Roll-Makro speichern"
+            },
+            "title": "Epic Roll"
+        },
+        "save": "Rettungswurf",
+        "settings": {
+            "failureSound": {
+                "hint": "Ton, der abgespielt wird, wenn ein Wurf fehlschlägt.",
+                "name": "Fehlschlags-Sound"
+            },
+            "introSound": {
+                "hint": "Sound, der abgespielt wird, wenn eine Rolle gestartet wird.",
+                "name": "Intro-Sound"
+            },
+            "purgeMessages": {
+                "hint": "Chat-Nachrichten automatisch aus Epic Rolls-Würfen löschen.",
+                "name": "Chatnachrichten bereinigen"
+            },
+            "successSound": {
+                "hint": "Sound, der abgespielt wird, wenn ein Wurf erfolgreich ist.",
+                "name": "Erfolgs-Sound"
+            }
+        },
+        "success": "Erfolg!"
+    }
+}

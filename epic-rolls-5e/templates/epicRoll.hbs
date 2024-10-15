@@ -1,0 +1,25 @@
+<div id="epic-rolls-5e-epic-roll">
+    {{#if isGM}}<i id="end-roll" class="splash fa-solid fa-xmark"></i>{{/if}}
+    <div class="user-cards splash">
+        {{#each users}}
+
+        <div class="user-card" data-user-id="{{id}}">
+            <span class="name">{{character.name}}</span>
+            <div class="portrait" style="background-image: url('{{character.img}}');">
+                <span class="result hidden"></span>
+            </div>
+            <div class="roll-buttons {{#unless character.isOwner}}roll-hidden{{/unless}}">
+                <i data-roll="roll" class="fa-duotone fa-dice-d20"></i>
+            </div>
+
+        </div>
+
+        {{/each}}
+    </div>
+    <div class="dc splash">
+        <span>{{rollText}}</span><span id="dc-display" class="{{#unless isGM}}{{#unless rollData.showDc}}hidden{{/unless}}{{/unless}}">{{#if rollData.dc}}{{localize "epic-rolls-5e.dc"}}{{/if}}
+            {{rollData.dc}}</span> </div>
+    <div id="splash-screen">
+        <span class="splash-text"></span>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+{
+    "epic-rolls-5e": {
+        "check": "Controlar",
+        "contest": "Concurso",
+        "dc": "corriente continua",
+        "failure": "¡Falla!",
+        "request-roll": {
+            "cancel": "Cancelar",
+            "checks": {
+                "actornone": "Rollo disputado",
+                "chknone": "Comprobación de habilidad",
+                "dc": "Habilidad/Comprobar/Guardar CD",
+                "savnone": "Tirada de salvación",
+                "sklnone": "Prueba de habilidad",
+                "token": "Ficha seleccionada"
+            },
+            "error": "Epic Rolls 5e: Debe seleccionar un tipo de rollo.",
+            "error-token": "Epic Rolls 5e: debe seleccionar un token para rodar.",
+            "error-users": "Epic Rolls 5e: debe seleccionar al menos un usuario para rodar.",
+            "macro": "Guardar como macro",
+            "options": {
+                "allowReroll": "Permitir repetición",
+                "blindRoll": "rollo ciego",
+                "hideNpcName": "Ocultar nombre",
+                "showDc": "Mostrar CD",
+                "showRollResult": "Mostrar resultado de tirada",
+                "showRollResultContested": "Mostrar disputado",
+                "useAverage": "Usar promedio"
+            },
+            "roll": "Iniciar rollo épico",
+            "save-macro": {
+                "content": "Introduzca el nombre de la macro a continuación:",
+                "title": "Guardar macro de rollo épico"
+            },
+            "title": "Rollo épico"
+        },
+        "save": "Tirada de salvación",
+        "settings": {
+            "failureSound": {
+                "hint": "Sonido que se reproduce cuando falla una tirada.",
+                "name": "Sonido de falla"
+            },
+            "introSound": {
+                "hint": "Sonido que se reproduce cuando se inicia un rollo.",
+                "name": "Sonido de introducción"
+            },
+            "purgeMessages": {
+                "hint": "Elimina automáticamente los mensajes de chat de los rollos de Epic Rolls.",
+                "name": "Limpiar mensajes de chat"
+            },
+            "successSound": {
+                "hint": "Sonido que se reproduce cuando una tirada tiene éxito.",
+                "name": "Sonido de éxito"
+            }
+        },
+        "success": "¡Éxito!"
+    }
+}

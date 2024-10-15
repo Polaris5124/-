@@ -1,0 +1,56 @@
+<form action="">
+    <div class="epic-rolls-grid">
+        <div class="main panel">
+            {{#each users}}
+            <div class="user-panel {{#if _epicRollsSelected}}selected{{/if}}" data-user-id="{{id}}">
+                <div class="portrait" style="background-image: url({{character.img}})"></div>
+                <span>{{character.name}}</span>
+            </div>
+            {{/each}}
+        </div>
+        <div class="check-type panel">
+            <select name="skl" class="check">
+                <option value="none">{{localize "epic-rolls-5e.request-roll.checks.sklnone"}}</option>
+                {{#each skills}}
+                <option value="{{@key}}">{{label}}</option>
+                {{/each}}
+            </select>
+            <select name="chk" class="check">
+                                <option value="none">{{localize "epic-rolls-5e.request-roll.checks.chknone"}}</option>
+                {{#each abilities}}
+                <option value="{{@key}}">{{label}} Check</option>
+                {{/each}}
+            </select>
+            <select name="sav" class="check">
+                                <option value="none">{{localize "epic-rolls-5e.request-roll.checks.savnone"}}</option>
+                {{#each abilities}}
+                <option value="{{@key}}">{{label}} Save</option>
+                {{/each}}
+            </select>
+            <input type="number" step="1" min="1" name="dc" id="dc" placeholder="{{localize "epic-rolls-5e.request-roll.checks.dc"}}">
+            <select name="contest" id="contest">
+                <option value="none">{{localize "epic-rolls-5e.request-roll.checks.actornone"}}</option>
+                <option value="token">{{localize "epic-rolls-5e.request-roll.checks.token"}}</option>
+                {{#each actors}}
+                <option value="{{uuid}}">{{name}}</option>
+                {{/each}}
+            </select>
+            <div class="button-grid">
+                <button class="toggle" name="showDc"><i class="fa-duotone fa-eye"></i> {{localize "epic-rolls-5e.request-roll.options.showDc"}}</button>
+                <button class="toggle" name="useAverage"><i class="fa-duotone fa-divide"></i> {{localize "epic-rolls-5e.request-roll.options.useAverage"}}</button>
+                <button class="toggle" name="allowReroll"><i class="fa-duotone fa-dice"></i> {{localize "epic-rolls-5e.request-roll.options.allowReroll"}}</button>
+                <button class="toggle active" name="showRollResult"><i class="fa-duotone fa-square-poll-vertical"></i> {{localize "epic-rolls-5e.request-roll.options.showRollResult"}}</button>
+                <button class="toggle" name="blindRoll"><i class="fa-duotone fa-eye-slash"></i> {{localize
+                    "epic-rolls-5e.request-roll.options.blindRoll"}}</button>
+                <button class="toggle" name="hideNpcName"><i class="fa-duotone fa-text-slash"></i> {{localize
+                    "epic-rolls-5e.request-roll.options.hideNpcName"}}</button>
+            </div>
+
+            </div>
+        <div class="confirm-roll">
+            <button autofocus id="confirm"><i class="fa-duotone fa-dice-d20"></i> {{localize "epic-rolls-5e.request-roll.roll"}}</button>
+            <button id="macro"><i class="fa-duotone fa-code"></i> {{localize "epic-rolls-5e.request-roll.macro"}}</button>
+            <button id="cancel"><i class="fa-duotone fa-xmark"></i> {{localize "epic-rolls-5e.request-roll.cancel"}}</button>
+        </div>
+    </div>
+</form>

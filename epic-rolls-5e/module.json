@@ -1,0 +1,79 @@
+{
+    "title": "Epic Rolls 5e",
+    "description": "desc",
+    "id": "epic-rolls-5e",
+    "version": "1.9",
+    "authors": [
+      {
+        "name": "theripper93",
+        "email": "tsplab@gmail.com",
+        "url": "https://www.patreon.com/theripper93"
+      }
+    ],
+    "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "languages/ja.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "languages/de.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "languages/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "languages/es.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "languages/it.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "languages/ru.json"
+    }
+    ],
+    "scripts": [
+        "scripts/config.js",
+        "scripts/module.js"
+    ],
+    "esmodules": [
+      "scripts/main.js"
+    ],
+    "styles": [
+      "styles/module.css"
+    ],
+    "packs": [
+    ],
+    "url": "https://theripper93.com",
+    "manifest": "",
+    "download": "",
+    "socket": true,
+    "relationships": {
+      "requires": [
+        {
+          "id": "socketlib",
+          "type": "module",
+          "compatibility": {}
+        }
+      ]
+    },
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    }
+  }

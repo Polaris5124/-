@@ -1,0 +1,15 @@
+@import '../scss/requestEpicRoll';
+@import '../scss/epicRoll';
+@import '../scss/epicRollMessage';
+
+.epic-roll{
+    flex:0;
+    font-size: 1.2rem;
+    align-self: center;
+    margin-right: 0.2rem;
+}
+
+.epic-roll:hover{
+    color: var(--color-shadow-highlight);
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+{
+    "epic-rolls-5e": {
+        "check": "Vérifier",
+        "contest": "Concours",
+        "dc": "CC",
+        "failure": "Échec!",
+        "request-roll": {
+            "cancel": "Annuler",
+            "checks": {
+                "actornone": "Rouleau contesté",
+                "chknone": "Contrôle de capacité",
+                "dc": "Compétence/Vérification/Sauvegarde DC",
+                "savnone": "Jet de sauvegarde",
+                "sklnone": "Vérification des compétences",
+                "token": "Jeton sélectionné"
+            },
+            "error": "Epic Rolls 5e : Vous devez sélectionner un type de roll.",
+            "error-token": "Epic Rolls 5e : Vous devez sélectionner un jeton pour lequel rouler.",
+            "error-users": "Epic Rolls 5e : vous devez sélectionner au moins un utilisateur pour lequel rouler.",
+            "macro": "Enregistrer en tant que macro",
+            "options": {
+                "allowReroll": "Autoriser la relance",
+                "blindRoll": "Rouleau aveugle",
+                "hideNpcName": "Masquer le nom",
+                "showDc": "Afficher DC",
+                "showRollResult": "Afficher le résultat du lancer",
+                "showRollResultContested": "Spectacle contesté",
+                "useAverage": "Utiliser la moyenne"
+            },
+            "roll": "Commencer le rouleau épique",
+            "save-macro": {
+                "content": "Entrez le nom de la macro ci-dessous :",
+                "title": "Enregistrer la macro de rouleau épique"
+            },
+            "title": "Rouleau épique"
+        },
+        "save": "Jet de sauvegarde",
+        "settings": {
+            "failureSound": {
+                "hint": "Son émis lorsqu'un jet échoue.",
+                "name": "Son d'échec"
+            },
+            "introSound": {
+                "hint": "Son émis au démarrage d'un roulement.",
+                "name": "Son d'introduction"
+            },
+            "purgeMessages": {
+                "hint": "Supprimez automatiquement les messages de chat des rouleaux Epic Rolls.",
+                "name": "Nettoyer les messages de chat"
+            },
+            "successSound": {
+                "hint": "Son joué lorsqu'un jet est réussi.",
+                "name": "Son succès"
+            }
+        },
+        "success": "Succès!"
+    }
+}

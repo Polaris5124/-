@@ -1,0 +1,58 @@
+{
+    "epic-rolls-5e": {
+        "request-roll": {
+            "title": "Epic Roll",
+            "roll": "Avvia Epic Roll",
+            "cancel": "Cancella",
+            "macro": "Salva Macro",
+            "error": "Epic Rolls 5e: Scegli un tipo di tiro.",
+            "error-token": "Epic Rolls 5e: Scegli un token per il quale tirare.",
+            "error-users": "Epic Rolls 5e: Scegli almeno un utente per il quale tirare.",
+            "checks": {
+                "sklnone": "Prova di Abilità",
+                "savnone": "Tiro Salvezza",
+                "chknone": "Prova di Caratteristica",
+                "dc": "CD Abilità/Caratteristica/TS",
+                "actornone": "Tiro Contrapposto",
+                "token": "Seleziona Token"
+            },
+            "options": {
+                "showDc": "Mostra CD",
+                "allowReroll": "Consenti Ri-Tira",
+                "useAverage": "Usa la Media",
+                "showRollResult": "Mostra Risultato",
+                "showRollResultContested": "Mostra Contrapposto",
+                "blindRoll": "Rotolo alla cieca",
+                "hideNpcName": "Nascondi nome"
+            },
+            "save-macro": {
+                "title": "Salva Epic Roll Macro",
+                "content": "Inserisci il nome della macro qui sotto:"
+            }
+        },
+        "settings": {
+            "purgeMessages": {
+                "name": "Cancella messaggi in chat",
+                "hint": "Elimina automaticamente i messaggi di Epic Rolls dalla chat."
+            },
+            "introSound": {
+                "name": "Audio Intro",
+                "hint": "Emette un suono quando si effettua un tiro."
+            },
+            "successSound": {
+                "name": "Audio Successo",
+                "hint": "Emette un suono quando un tiro ha successo."
+            },
+            "failureSound": {
+                "name": "Audio Fallimento",
+                "hint": "Emette un suono quando un tiro fallisce."
+            }
+        },
+        "dc": "CD",
+        "save": "-Tiro Salvezza-",
+        "check": "-Prova-",
+        "contest": "-Contrapposto-",
+        "success": "Successo!",
+        "failure": "Fallimento!"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "epic-rolls-5e": {
+        "request-roll": {
+            "title": "Epic Roll",
+            "roll": "Start Epic Roll",
+            "cancel": "Cancel",
+            "macro": "Save as Macro",
+            "error": "Epic Rolls 5e: You must select one type of roll.",
+            "error-token": "Epic Rolls 5e: You must select a token to roll for.",
+            "error-users": "Epic Rolls 5e: You must select at least one user to roll for.",
+            "checks": {
+                "sklnone": "Skill Check",
+                "savnone": "Saving Throw",
+                "chknone": "Ability Check",
+                "dc": "Skill/Check/Save DC",
+                "actornone": "Contested Roll",
+                "token": "Selected Token"
+            },
+            "options": {
+                "showDc": "Show DC",
+                "allowReroll": "Allow Reroll",
+                "useAverage": "Use Average",
+                "showRollResult": "Show Roll Result",
+                "showRollResultContested": "Show Contested",
+                "hideNpcName": "Hide Name",
+                "blindRoll": "Blind Roll"
+            },
+            "save-macro": {
+                "title": "Save Epic Roll Macro",
+                "content": "Enter the name of the macro below:"
+            }
+        },
+        "settings": {
+            "purgeMessages": {
+                "name": "Clean up chat messages",
+                "hint": "Automatically delete chat messages from Epic Rolls rolls."
+            },
+            "introSound": {
+                "name": "Intro sound",
+                "hint": "Sound played when a roll is started."
+            },
+            "successSound": {
+                "name": "Success sound",
+                "hint": "Sound played when a roll is successful."
+            },
+            "failureSound": {
+                "name": "Failure sound",
+                "hint": "Sound played when a roll fails."
+            }
+        },
+        "dc": "DC",
+        "save": "Saving Throw",
+        "check": "Check",
+        "contest": "Contest",
+        "success": "Success!",
+        "failure": "Failure!"
+
+    }
+}

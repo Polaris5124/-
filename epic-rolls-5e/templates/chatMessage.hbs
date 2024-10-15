@@ -1,0 +1,5 @@
+<ul class="epic-rolls-5e-message">
+    {{#each resultData}}
+        <li><img src="{{user.character.img}}" alt=""><span>{{user.character.name}}</span><span>{{result}}</span><span>{{#if success}}<i class="fa-duotone fa-check-double"></i>{{else}}<i class="fa-solid fa-xmark"></i>{{/if}}</span></li>
+    {{/each}}
+</ul>
